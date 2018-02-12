@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GAllery</title>
+    <!-- include css file -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <!-- title -->
+      <h2>Our Beautiful Image Gallery</h2>
+
+      <!-- The Gallery -->
+      <ul class="gallery">
+        <li class="image-box"> <img src="pics/1.jpg" alt="Image"> </li>
+        <li class="image-box"> <img src="pics/2.jpg" alt="Image"> </li>
+        <li class="image-box"> <img src="pics/3.jpg" alt="Image"> </li>
+        <li class="image-box"> <img src="pics/4.jpg" alt="Image"> </li>
+        <li class="image-box"> <img src="pics/5.jpg" alt="Image"> </li>
+        <li class="image-box"> <img src="pics/6.jpg" alt="Image"> </li>
+        <li class="image-box"> <img src="pics/7.jpg" alt="Image"> </li>
+        <li class="image-box"> <img src="pics/9.jpg" alt="Image"> </li>
+      </ul>
+
+      <!-- The lightbox -->
+      <div id="lightbox" class="lightbox">
+        <div class="overlay" id="overlay"></div>
+        <img src="pics/2.jpg" alt="lightbox image" class="lightbox-image">
+        <button id="close">X</button>
+        <div class="thumbnails" id="thumb"></div>
+      </div>
+    </div>
+
+    <!-- include js file -->
+    <script src="action.js"></script>
+  </body>
+</html>
